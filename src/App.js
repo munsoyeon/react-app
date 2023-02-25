@@ -187,8 +187,7 @@ function App() {
           setTopics(newTopics);
           setMode("READ");
           setId(nextId);
-          setNextId(setNextId + 1);
-          console.log(nextId);
+          setNextId(nextId + 1);
         }}
       />
     );
